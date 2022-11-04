@@ -21,8 +21,14 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
 /**
- * function prototypes of each tasks
+ * given function's prototypes of each tasks
  */
 void bubble_sort(int *array, size_t size);
+void insertion_sort_list(listint_t **list);
+
+/**
+ * User defined function prototypes
+ */
+void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 
 #endif /* SORT_H */
